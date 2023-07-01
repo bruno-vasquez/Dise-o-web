@@ -1,77 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Formulario de compra</title>
+    <title>Formulario De Inscripción</title>
     <meta charset="UTF-8">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f78585;
-            margin: 0;
-            padding: 20px;
-        }
+    <link rel="stylesheet" href="styleformulario.css" type="text/css">
 
-        h1 {
-            color: #000000;
-            text-align: center;
-        }
-
-        form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 4px;
-            max-width: 400px;
-            margin: 0 auto;
-        }
-
-        .catalog-button {
-            display: inline-block;
-            background-color: #fc052e;
-            border: none;
-            border-radius: 50%;
-            width: 32px;
-            height: 32px;
-            text-align: right;
-            cursor: pointer;
-        }
-
-        .catalog-button:hover {
-            background-color: #eaeaea;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        input[type="text"], select, input[type="submit"] {
-            width: 100%;
-            padding: 5px;
-            margin-bottom: 10px;
-            border: 1px solid #6259e2;
-            border-radius: 4px;
-        }
-        input[type="number"], select, input[type="submit"] {
-            width: 100%;
-            padding: 5px;
-            margin-bottom: 10px;
-            border: 1px solid #6259e2;
-            border-radius: 4px;
-        }
-
-        input[type="submit"] {
-            background-color: #0805f0;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 10px;
-        }
-
-    </style>
+    
 </head>
 <body>
-    <h1><b>Formulario de inscripción</b></h1>
+    <h1><b>Formulario De Inscripción</b></h1>
     <form method="post">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
@@ -85,9 +22,10 @@
             <option hidden selected>Selecciona su carrera</option>
             <option value="carrera">Informática</option>
             <option value="carrera">Sistemas</option>
+
         </select>
         <label for="curso">Cursos:</label>
-        <select id="curso" name="curso"  required>
+        <select class="curso" id="curso" name="curso"  required>
             
             <option hidden selected>Selecciona una opción</option>
             <option value="curso 1">Redes de computadoras</option>
@@ -98,7 +36,7 @@
             <option value="curso 6">Linux</option>
             <option value="curso 7">Mantenimiento</option>
         </select>
-        <input type="submit" value="Inscribirme">
+        <button type="submit"> <strong>INSCRIBIRME</strong> </button>
     </form>
 </body>
 </html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .labocompu{
+    border: 3px solid #222651;
+  }
+  .imgredes{
+    border: 3px solid #222651;
+  }
+  .welcome-section {
+    position: relative;
+    text-align: center;
+    padding: 1em;
+    background-color: #b4e7fff3;
+  }
+
+  .highlight-section {
+    text-align: center;
+    padding: 30px;
+    background-color: #a1d2ce;
+  }
+ h1{
+  font-size: 70px;
+ }
+ p{
+  font-size: 25px;
+ }
+  .highlight-section h2 {
+    color: #0f0f0f;
+  }
+
+  .higligth-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .highlight-item {
+          width: 600px;
+          margin: 5%;
+          margin-left: 10% ;
+          padding: 10px;
+          border: 3px solid #222651;
+          border-radius: 10px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          background-color: #97d4e5;
+          text-align: center;    
+  }
+
+  .navigation-menu {
+    text-align: center;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    padding: 1em;
+  }
+
+  .navigation-menu a {
+    color: #f8f8f8;
+    text-decoration: none;
+    margin: 0 10px;
+  }
